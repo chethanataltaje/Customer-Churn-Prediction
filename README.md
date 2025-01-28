@@ -3,7 +3,7 @@
  This project focuses on analyzing customer data from a telecommunications company to identify those at risk of churning.It addresses the challenge of class imbalance in the dataset and evaluates different approaches to improve predictions.
 
 ### Dataset
-* Source: The dataset includes customer demographics, account details, and service usage patterns.
+* Source: https://www.kaggle.com/  The dataset includes customer demographics, account details, and service usage patterns.
 * Features: Various attributes such as tenure, payment method, and internet service type.
 * Target Variable: Churn (binary: 1 for churn, 0 for no churn).
 
@@ -26,7 +26,7 @@ EDA helped uncover patterns and insights:
     * Churn Distribution: Highlighted the imbalance in the target variable.
 
 3. Model Building
- Baseline Model (Without SMOTE)
+ * Baseline Model (Without SMOTE)
     * Algorithm: Logistic Regression
     * Performance:
       * Accuracy: 80%
@@ -34,13 +34,13 @@ EDA helped uncover patterns and insights:
       * Recall (Churn): 56%
       * F1-Score (Churn): 60%
 
-SMOTE-Adjusted Model
-     * Algorithm: Logistic Regression with SMOTE applied to the training data.
-     * Performance:
-       * Accuracy: 73%
-       * Precision (Churn): 50%
-       * Recall (Churn): 70%
-       * F1-Score (Churn): 58%
+ * SMOTE-Adjusted Model
+    * Algorithm: Logistic Regression with SMOTE applied to the training data.
+    * Performance:
+      * Accuracy: 73%
+      * Precision (Churn): 50%
+      * Recall (Churn): 70%
+      * F1-Score (Churn): 58%
                 
 4. Model Evaluation
    * The baseline model has better overall accuracy but struggles with recall for churners.
