@@ -29,18 +29,18 @@ EDA helped uncover patterns and insights:
  Baseline Model (Without SMOTE)
     * Algorithm: Logistic Regression
     * Performance:
-                * Accuracy: 80%
-                * Precision (Churn): 66%
-                * Recall (Churn): 56%
-                * F1-Score (Churn): 60%
+      * Accuracy: 80%
+      * Precision (Churn): 66%
+      * Recall (Churn): 56%
+      * F1-Score (Churn): 60%
 
 SMOTE-Adjusted Model
      * Algorithm: Logistic Regression with SMOTE applied to the training data.
      * Performance:
-                * Accuracy: 73%
-                * Precision (Churn): 50%
-                * Recall (Churn): 70%
-                * F1-Score (Churn): 58%
+       * Accuracy: 73%
+       * Precision (Churn): 50%
+       * Recall (Churn): 70%
+       * F1-Score (Churn): 58%
                 
 4. Model Evaluation
    * The baseline model has better overall accuracy but struggles with recall for churners.
