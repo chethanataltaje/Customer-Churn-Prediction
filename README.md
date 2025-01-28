@@ -18,8 +18,8 @@ The dataset is imbalanced, meaning there are significantly more non-churners tha
     * Categorical Variables: Transformed into numerical representations using one-hot encoding.
     * Feature Scaling: Standardized numerical features (tenure, MonthlyCharges, TotalCharges) using StandardScaler for better model performance.
 
-2. Exploratory Data Analysis (EDA)
-EDA helped uncover patterns and insights:
+2. Exploratory Data Analysis (EDA):
+   It helped uncover patterns and insights.
     * Histograms: Visualized distributions of numerical features.
     * Box Plots: Identified potential outliers in numerical data.
     * Correlation Heatmap: Showed relationships between numerical features.
