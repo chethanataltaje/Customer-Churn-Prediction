@@ -1,9 +1,10 @@
 # Customer-Churn-Prediction
 ## Overview
- This project focuses on analyzing customer data from a telecommunications company to identify those at risk of churning. It addresses the challenge of class imbalance in the dataset and evaluates different approaches to improve predictions.
+This project focuses on analyzing customer data from a telecommunications company to identify which customers might stop using their service. It addresses the challenge of class imbalance in the dataset and evaluates different approaches to improve predictions.
 
 ### Dataset
-* Source: https://www.kaggle.com/  The dataset includes customer demographics, account details, and service usage patterns.
+* Source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn  The dataset includes customer demographics, account details, and service usage patterns.
+* Source:   The dataset includes customer demographics, account details, and service usage patterns.
 * Features: Various attributes such as tenure, payment method, and internet service type.
 * Target Variable: Churn (binary: 1 for churn, 0 for no churn).
 
