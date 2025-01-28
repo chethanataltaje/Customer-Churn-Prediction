@@ -1,6 +1,6 @@
 # Customer-Churn-Prediction
 ## Overview
- This project focuses on analyzing customer data from a telecommunications company to identify those at risk of churning.It addresses the challenge of class imbalance in the dataset and evaluates different approaches to improve predictions.
+ This project focuses on analyzing customer data from a telecommunications company to identify those at risk of churning. It addresses the challenge of class imbalance in the dataset and evaluates different approaches to improve predictions.
 
 ### Dataset
 * Source: https://www.kaggle.com/  The dataset includes customer demographics, account details, and service usage patterns.
